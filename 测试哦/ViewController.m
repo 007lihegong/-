@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ViewController1.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button setTitle:@"跳转" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor redColor];
+    button.frame = CGRectMake(10, 64 + 40, self.view.frame.size.width - 20, 40);
+    [button addTarget:self action:@selector(buttonEvent:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)buttonEvent:(UIButton *)sender{
+    ViewController1 *vc = [[ViewController1 alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
-
 @end

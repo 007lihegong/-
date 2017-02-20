@@ -15,6 +15,13 @@
 		84B68EC71DB8A9AC00AF1E8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B68EC51DB8A9AC00AF1E8B /* LaunchScreen.storyboard */; };
 		84B68ED21DB8A9AC00AF1E8B /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B68ED11DB8A9AC00AF1E8B /* ___Tests.m */; };
 		84B68EDD1DB8A9AC00AF1E8B /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B68EDC1DB8A9AC00AF1E8B /* ___UITests.m */; };
+		84B68EED1DB8A9C300AF1E8B /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B68EEB1DB8A9C300AF1E8B /* ViewController1.m */; };
+		84B68EEE1DB8A9C300AF1E8B /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B68EEC1DB8A9C300AF1E8B /* ViewController1.xib */; };
+		84B68EF21DB8AE5100AF1E8B /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B68EF01DB8AE5100AF1E8B /* TableViewCell.m */; };
+		84B68EF31DB8AE5100AF1E8B /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B68EF11DB8AE5100AF1E8B /* TableViewCell.xib */; };
+		84B68EF71DB8CA2200AF1E8B /* patient_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B68EF61DB8CA2200AF1E8B /* patient_woman.png */; };
+		84B68EF91DB8CCDF00AF1E8B /* shareIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B68EF81DB8CCDF00AF1E8B /* shareIcon.png */; };
+		84B68EFB1DB8CCE800AF1E8B /* certificate-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B68EFA1DB8CCE800AF1E8B /* certificate-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,15 @@
 		84B68ED81DB8A9AC00AF1E8B /* 测试哦UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "测试哦UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B68EDC1DB8A9AC00AF1E8B /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		84B68EDE1DB8A9AC00AF1E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B68EEA1DB8A9C300AF1E8B /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		84B68EEB1DB8A9C300AF1E8B /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		84B68EEC1DB8A9C300AF1E8B /* ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
+		84B68EEF1DB8AE5100AF1E8B /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		84B68EF01DB8AE5100AF1E8B /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		84B68EF11DB8AE5100AF1E8B /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		84B68EF61DB8CA2200AF1E8B /* patient_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patient_woman.png; sourceTree = "<group>"; };
+		84B68EF81DB8CCDF00AF1E8B /* shareIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareIcon.png; sourceTree = "<group>"; };
+		84B68EFA1DB8CCE800AF1E8B /* certificate-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "certificate-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +121,15 @@
 				84B68EBB1DB8A9AC00AF1E8B /* AppDelegate.m */,
 				84B68EBD1DB8A9AC00AF1E8B /* ViewController.h */,
 				84B68EBE1DB8A9AC00AF1E8B /* ViewController.m */,
+				84B68EEA1DB8A9C300AF1E8B /* ViewController1.h */,
+				84B68EEB1DB8A9C300AF1E8B /* ViewController1.m */,
+				84B68EEC1DB8A9C300AF1E8B /* ViewController1.xib */,
+				84B68EF61DB8CA2200AF1E8B /* patient_woman.png */,
+				84B68EFA1DB8CCE800AF1E8B /* certificate-icon.png */,
+				84B68EF81DB8CCDF00AF1E8B /* shareIcon.png */,
+				84B68EEF1DB8AE5100AF1E8B /* TableViewCell.h */,
+				84B68EF01DB8AE5100AF1E8B /* TableViewCell.m */,
+				84B68EF11DB8AE5100AF1E8B /* TableViewCell.xib */,
 				84B68EC01DB8A9AC00AF1E8B /* Main.storyboard */,
 				84B68EC31DB8A9AC00AF1E8B /* Assets.xcassets */,
 				84B68EC51DB8A9AC00AF1E8B /* LaunchScreen.storyboard */,
@@ -202,11 +227,12 @@
 		84B68EAC1DB8A9AC00AF1E8B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = lihongxu;
 				TargetAttributes = {
 					84B68EB31DB8A9AC00AF1E8B = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WB5G87WSWC;
 					};
 					84B68ECC1DB8A9AC00AF1E8B = {
 						CreatedOnToolsVersion = 7.3;
@@ -243,7 +269,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B68EFB1DB8CCE800AF1E8B /* certificate-icon.png in Resources */,
+				84B68EEE1DB8A9C300AF1E8B /* ViewController1.xib in Resources */,
+				84B68EF91DB8CCDF00AF1E8B /* shareIcon.png in Resources */,
+				84B68EF31DB8AE5100AF1E8B /* TableViewCell.xib in Resources */,
 				84B68EC71DB8A9AC00AF1E8B /* LaunchScreen.storyboard in Resources */,
+				84B68EF71DB8CA2200AF1E8B /* patient_woman.png in Resources */,
 				84B68EC41DB8A9AC00AF1E8B /* Assets.xcassets in Resources */,
 				84B68EC21DB8A9AC00AF1E8B /* Main.storyboard in Resources */,
 			);
@@ -270,8 +301,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B68EED1DB8A9C300AF1E8B /* ViewController1.m in Sources */,
 				84B68EBF1DB8A9AC00AF1E8B /* ViewController.m in Sources */,
 				84B68EBC1DB8A9AC00AF1E8B /* AppDelegate.m in Sources */,
+				84B68EF21DB8AE5100AF1E8B /* TableViewCell.m in Sources */,
 				84B68EB91DB8A9AC00AF1E8B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,8 +374,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -385,8 +420,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -413,6 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WB5G87WSWC;
 				INFOPLIST_FILE = "测试哦/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yxiang.---";
@@ -424,6 +462,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WB5G87WSWC;
 				INFOPLIST_FILE = "测试哦/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yxiang.---";
@@ -496,6 +535,7 @@
 				84B68EE31DB8A9AC00AF1E8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84B68EE41DB8A9AC00AF1E8B /* Build configuration list for PBXNativeTarget "测试哦Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +544,7 @@
 				84B68EE61DB8A9AC00AF1E8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84B68EE71DB8A9AC00AF1E8B /* Build configuration list for PBXNativeTarget "测试哦UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +553,7 @@
 				84B68EE91DB8A9AC00AF1E8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
